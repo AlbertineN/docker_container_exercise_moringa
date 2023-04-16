@@ -12,7 +12,7 @@ For more details on the above steps kidnly see:https://www.digitalocean.com/comm
 
 Step Four 
 Created a root directory *mkdir ~/.venvs*  to store the virtual envirom=nments i create for my python apllications.I then created a virtual environment for my project (dcem) 
-*python3 -m ~/.venvs/dcem* and activated it *source ~/.venvs/dcem/bin/activate*. Inside my environment i installed the following packages;
+*python3 -m venv ~/.venvs/dcem* and activated it *source ~/.venvs/dcem/bin/activate*. Inside my environment i installed the following packages;
 
 *pip install django gunicorn psycopg2-binary dj-database-url*
 

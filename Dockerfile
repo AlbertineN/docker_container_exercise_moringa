@@ -1,5 +1,7 @@
 FROM python:3.10.6
 
+LABEL maintainer="albertinengingan@gmail.com"
+
 VOLUME /python_app
 
 WORKDIR /app
